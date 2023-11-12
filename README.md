@@ -2,7 +2,7 @@
 
 * Nesse repositorio irei instrui-lo como rodar um jogo feito da Engine Godot para funciona numa Tv-Box com modelo Rk322x de 32 bits no sistema operacional LINUX.
 * Vale mencionar que, o Godot não tem nenhum exportação oficial para Arm, logo teremos que improvisa. Durante as minhas pesquisas ate o momento atual, so achei suporte não oficial para o Raspberry Pi no Godot, no entanto, nenhum para a Tv-box.
-* Se sua TV-Box não é de 32 bits, vá na seção de [Referencias](#referencia) e utilize os repositorios.
+* Se sua TV-Box não é de 32 bits, vá na seção de - [Referencias](#referencia) e utilize os repositorios.
 
 ## Pré-Requisitos
 
