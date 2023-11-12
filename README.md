@@ -2,7 +2,7 @@
 
 * Nesse repositorio irei instrui-lo como rodar um jogo feito da Engine Godot para funciona numa Tv-Box com modelo Rk322x de 32 bits no sistema operacional LINUX.
 * Vale mencionar que, o Godot não tem nenhum exportação oficial para Arm, logo teremos que improvisa. Durante as minhas pesquisas ate o momento atual, so achei suporte não oficial para o Raspberry Pi no Godot, no entanto, nenhum para a Tv-box.
-* Se sua TV-Box não é de 32 bits, vá na seção de - [Referencias](#referencia) e utilize os repositorios.
+* Se sua TV-Box não é de 32 bits, vá na seção de [Referencias](#referencia) e utilize os repositorios.
 
 ## Pré-Requisitos
 
@@ -18,6 +18,7 @@ Por acaso, voce não instalou nenhuma interface grafica na Tv-box te recomendo a
 	- https://users.armbian.com/jock/rk322x/armbian/stable
 
 ### Configurações do sistema da Tv-Box
+
 ```
 Distribuição Linux: Debian/Ubuntu
 Versão da Distribuição: 11
@@ -73,6 +74,8 @@ Esses repositorios linkados nessa seção foram os que peguei para ter a noção
 * [Unofficial-Godot-Raspberry](https://github.com/hiulit/Unofficial-Godot-Engine-Raspberry-Pi)
 * [FRT](https://github.com/efornara/frt)
 
+
+Na hipótese de que não funcione nenhum desses repositorios. Vá no [Unofficial-Godot-Raspberry](https://github.com/hiulit/Unofficial-Godot-Engine-Raspberry-Pi), na parte de "Compiling", click no link e voce será reposicionado para outra pasta 'Readme.md" e encontre o "Compile on the Raspberry Pi". Antes de tudo, verifique a arquitetura da sua TV-Box e analise qual dos modelos da Raspberry Pi tem alguma arquitetura semelhante a da sua TV-Box. Se caso for o "Raspberry Pi 2", dentro desse link haverá para compilar o "Editor", "Export Template", "Server" e "Headless". Copie a linha do comando do "Export Template" e no terminal da sua TV-Box na pasta do godot, execute essa linha e outro arquivo aparecerá na pasta "bin". E segue os passos da seção "Instalações".
 
 
 
